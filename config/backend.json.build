@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.7.14",
+  "description": "Module backend",
+  "author": "Next Nobels",
+  "script": "admin",
+  "keywords": [
+    "backend",
+    "system",
+    "admin",
+	"grid"
+  ],
+  "type": "system",
+  "files": [ 
+	"default/layouts/admin/grid",
+	"default/layouts/admin/home/head.php",
+	"default/layouts/admin/home/menu.php",
+	"default/layouts/admin/home/left.php",
+	"default/layouts/admin/home/right.php",
+	"default/layouts/admin/home/shortcut.php",
+	"default/layouts/admin/home/footer.php",
+	"default/layouts/admin/home/content.php",
+	"default/layouts/admin/login/login.php",
+	"default/pages/admin/grid",
+	"default/pages/admin/home/index.php",
+	"default/pages/admin/home/shortcut.php",
+	"default/pages/admin/config",
+	"default/pages/admin/report",
+	"default/controller/admin/Menu.php",
+	"default/controller/admin/Packages.php",
+	"default/controller/admin/Login.php",
+	"model/entity/user/account/User.php",
+	"model/Admin.php",
+	"default/controller/admin/Home.php",
+	"default/layouts/admin/form",
+	"default/skin/admin",
+	"js/core/db/grid.js"
+  ],
+  "license": "MIT",
+  "settings": [
+  ],
+  "dependencies" : ["bootstrap", "jquery"]
+}

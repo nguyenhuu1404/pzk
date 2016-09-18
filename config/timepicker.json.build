@@ -1,0 +1,37 @@
+{
+  "name": "timepicker",
+  "version": "1.5.5",
+  "description": "Module timepicker",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "jquery",
+    "jqueryui",
+	"timepicker"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/ui/jquery-ui-timepicker-addon.min.js",
+	"3rdparty/ui/jquery-ui-timepicker-addon.min.css"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_timepicker_js_src",
+      "type": "selectoption",
+      "label": "Js Src",
+      "option" : {
+        "/3rdparty/ui/jquery-ui-timepicker-addon.min.js":"timepicker 1.5.5"
+      }
+    },
+	{
+      "index": "plugin_timepicker_css_src",
+      "type": "selectoption",
+      "label": "Css Src",
+      "option" : {
+        "/3rdparty/ui/jquery-ui-timepicker-addon.min.css":"timepicker 1.5.5"
+      }
+    }
+  ],
+  "dependencies": ["jquery", "jqueryui"]
+}

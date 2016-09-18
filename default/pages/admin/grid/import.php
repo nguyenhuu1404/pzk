@@ -1,0 +1,1 @@
+<core.db.grid  table="user" layout="admin/grid/import" />

@@ -1,0 +1,1 @@
+a:12:{i:0;s:2:"id";i:1;s:14:"admin_level_id";i:2;s:12:"admin_action";i:3;s:11:"admin_level";i:4;s:6:"status";i:5;s:6:"params";i:6;s:11:"action_type";i:7;s:8:"software";i:8;s:7:"created";i:9;s:9:"createdId";i:10;s:8:"modified";i:11;s:10:"modifiedId";}

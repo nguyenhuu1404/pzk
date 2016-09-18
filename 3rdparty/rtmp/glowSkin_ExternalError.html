@@ -1,0 +1,57 @@
+﻿<html>
+<head>
+<title>Custom Error Handling</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="FlashPlayer/umsplayer.js" charset="utf-8"></script>  
+</head>
+
+
+<script type="text/javascript">
+
+var handlerErrorMessage = function(args){
+    var code = args.ErrorCode;
+    var text = args.ErrorText;
+    var errorObject = document.getElementById('errors-holder');
+    var errorCodeObject = document.getElementById('error-code');
+    var errorTextObject = document.getElementById('error-text');
+    errorCodeObject.innerHTML = code;
+    errorTextObject.innerHTML = text;   
+
+    // display error
+    errorObject.style.display = 'block';         
+};
+
+</script>
+
+<body id="unload-trigger-element">
+
+<!-- errors container -->
+<div id="errors-holder" style="display:none;">
+    <h3><strong>Error code <big>[<span id="error-code"></span>]</strong></h3>
+    <p id="error-text"></p>
+</div>
+
+<!-- player container -->
+<div id="player-container">
+</div>
+
+<script type="text/javascript">
+//SNT_DEBUG = true; // uncomment here to enable debug
+embedPlayer('player-container', {
+    flashvars : {
+       'rtmp' : 'rtmp://192.168.1.6:5119/live/WRONGALIAS',
+       'showErrorInPlayer' : false
+    },
+    size : { width: 480, height: 360 },
+    playerStyle : 'glow',
+    // add custom callback function add listeners 
+    callback : function(player){ 
+        player.addEventListener('serverErrorMessage', handlerErrorMessage);
+    }
+});
+</script>
+
+</body>
+</html>
+
+

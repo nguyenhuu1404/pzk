@@ -1,0 +1,1 @@
+<a href="{prop src}" class="list-group-item">{prop title}</a>

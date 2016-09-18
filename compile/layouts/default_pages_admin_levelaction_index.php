@@ -1,0 +1,1 @@
+<core.db.grid table="pzk_admin_level_action" layout="admin/levelaction/index" id="list"/>

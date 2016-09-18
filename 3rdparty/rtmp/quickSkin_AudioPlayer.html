@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+<title>Unreal Flash Player</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="FlashPlayer/umsplayer.js" charset="utf-8"></script>  
+</head>
+<body id="unload-trigger-element">
+
+<!-- player container -->
+<div id="player-container"><p>Please install Adobe Flash Player</p>
+</div>
+
+<script type="text/javascript">
+embedPlayer('player-container', {
+    flashvars : {
+       'rtmp' : 'rtmp://192.168.1.6:5119/live/radio',
+       'bufferLength' : 2,
+       'audioMode' : true
+  //   'bgimg' : 'youraudiobackground.jpg'      //For audio-only streams, set your custom background; not set by default   
+    },
+    size : { width: 250, height: 55 },
+    playerStyle : 'quick'
+});
+</script>
+
+</body>
+</html>
+

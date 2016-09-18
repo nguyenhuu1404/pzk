@@ -1,0 +1,35 @@
+{
+  "name": "jqueryui",
+  "version": "1.11.4",
+  "description": "Module jqueryui",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "jquery",
+    "jqueryui"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/ui"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_jqueryui_js_src",
+      "type": "selectoption",
+      "label": "Js Src",
+      "option" : {
+        "/3rdparty/ui/jquery-ui.min.js":"JQueryui 1.11.4"
+      }
+    },
+	{
+      "index": "plugin_jqueryui_css_src",
+      "type": "selectoption",
+      "label": "Css Src",
+      "option" : {
+        "/3rdparty/ui/jquery-ui.min.css":"JQueryui 1.11.4"
+      }
+    }
+  ],
+  "dependencies": ["jquery"]
+}

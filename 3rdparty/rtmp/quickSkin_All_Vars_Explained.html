@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+<title>Unreal Flash Player</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="FlashPlayer/umsplayer.js" charset="utf-8"></script>  
+</head>
+<body id="unload-trigger-element">
+
+<!-- player container -->
+<div id="player-container"><p>Please install Adobe Flash Player</p>
+</div>
+
+<script type="text/javascript">
+embedPlayer('player-container', {
+    flashvars : {
+       'rtmp' : 'rtmp://192.168.1.6:5119/live/webcam',         //rtmp or rtmpt link to UMS live broadcast alias; not set by default;  the player automatically reconnects using RTMPT if RTMP connection fails
+       'autoplay' : true,                                                                 //start playing automatically; true by default
+       'bufferLength' : 0,                                                              //Buffer length in seconds; 1 by default; set to 0 for real-time streaming
+       'showMetadata' : true,                                                        //display server metadata; true by default
+       'showLiveCaption' : true,                                                  //display "Live" label with time; false by default
+       'livelabelshowbg' : false,                                                   //display only time on "Live" label; false by default
+       'showErrorInPlayer' : true,                                                //show error text in the player; true by default 
+       'autoReconnect' : false                                                     //reconnect if working connection breaks; false by default
+    // 'logopath' : 'yourlogo.gif',                                                  //url of your logo; not set by default
+    // 'ownerlink' : 'http://www.yoursite.com',                             //where to go when logo is clicked; not set by default  
+    // 'poster' : 'yourposter.jpg'                                                   //path to your poster, for non-autoplay mode; not set by default
+    },
+    size : { width: 480, height: 360 },
+    playerStyle : 'quick'
+});
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,1 @@
+<link type="text/css" property="stylesheet" rel="stylesheet" href="{prop src}" />

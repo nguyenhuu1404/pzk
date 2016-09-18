@@ -1,0 +1,1 @@
+<div table="admin_level_action" id="levelaction_add" parentId="0" layout="admin/levelaction/add" />

@@ -1,0 +1,36 @@
+{
+  "name": "validate",
+  "version": "1.13.1",
+  "description": "Module validate",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "validate",
+    "jquery"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/jquery/jquery.validate.min.js",
+	"3rdparty/jquery/additional-methods.min.js"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_validate_src",
+      "type": "selectoption",
+      "label": "Src",
+      "option" : {
+        "/3rdparty/jquery/jquery.validate.min.js":"Validate 1.13.1"
+      }
+    },
+	{
+      "index": "plugin_validate_additional_src",
+      "type": "selectoption",
+      "label": "Src",
+      "option" : {
+        "/3rdparty/jquery/additional-methods.min.js":"Additional Methods 1.13.1"
+      }
+    }
+  ],
+  "dependencies": ["jquery"]
+}

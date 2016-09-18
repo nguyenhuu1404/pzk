@@ -1,0 +1,1 @@
+a:16:{i:0;s:2:"id";i:1;s:4:"name";i:2;s:7:"created";i:3;s:9:"creatorId";i:4;s:8:"modified";i:5;s:10:"modifiedId";i:6;s:6:"status";i:7;s:9:"startDate";i:8;s:7:"endDate";i:9;s:7:"content";i:10;s:8:"software";i:11;s:6:"global";i:12;s:15:"sharedSoftwares";i:13;s:7:"default";i:14;s:8:"ordering";i:15;s:4:"site";}

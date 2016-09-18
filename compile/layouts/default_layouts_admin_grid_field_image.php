@@ -1,0 +1,1 @@
+<img src="<?php echo isset($data)?$data->getValue(): '';?>" width="<?php echo isset($data)?$data->getWidth(): '';?>" height="<?php echo isset($data)?$data->getHeight(): '';?>" />

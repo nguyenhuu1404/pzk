@@ -1,0 +1,44 @@
+{
+  "name": "daterangepicker",
+  "version": "0.0.9",
+  "description": "Module daterangepicker",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "jquery",
+    "jqueryui",
+	"daterangepicker"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/daterangepicker"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_daterangepicker_js_src",
+      "type": "selectoption",
+      "label": "Js Src",
+      "option" : {
+        "/3rdparty/daterangepicker/jquery.daterangepicker.js":"Daterangepicker 0.0.9"
+      }
+    },
+	{
+      "index": "plugin_daterangepicker_moment_js_src",
+      "type": "selectoption",
+      "label": "Moment Js Src",
+      "option" : {
+        "/3rdparty/daterangepicker/moment.min.js":"Daterangepicker 0.0.9"
+      }
+    },
+	{
+      "index": "plugin_daterangepicker_css_src",
+      "type": "selectoption",
+      "label": "Css Src",
+      "option" : {
+        "/3rdparty/daterangepicker/daterangepicker.css":"Daterangepicker 0.0.9"
+      }
+    }
+  ],
+  "dependencies": ["jquery", "jqueryui"]
+}

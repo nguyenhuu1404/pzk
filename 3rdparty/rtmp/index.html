@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+<title>Unreal Flash Player</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="FlashPlayer/umsplayer.js" charset="utf-8"></script>  
+</head>
+<body id="unload-trigger-element">
+
+<!-- player container -->
+<div id="player-container">
+</div>
+
+<script type="text/javascript">
+embedPlayer('player-container', {
+    flashvars : {
+       'rtmp' : 'rtmp://192.168.137.101:1935/vod/bbb.mp4'      
+    },
+    size : { width: 640, height: 480 },
+    playerStyle : 'glow'
+});
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,1 @@
+<img src="{data.getValue()}" width="{data.getWidth()}" height="{data.getHeight()}" />

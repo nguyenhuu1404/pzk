@@ -1,0 +1,1 @@
+<core.db.list layout="admin/config/edit" id="config"/>

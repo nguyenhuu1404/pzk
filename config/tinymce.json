@@ -1,0 +1,27 @@
+{
+  "name": "tinymce",
+  "version": "4.2.7",
+  "description": "Module Tinymce",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "tinymce",
+    "editor"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/tinymce_4.2.7"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_tinymce_src",
+      "type": "selectoption",
+      "label": "Src",
+      "option" : {
+		"/3rdparty/tinymce_4.2.7/tinymce.min.js":"Tinymce 4.2.7",
+        "/3rdparty/tinymce/tinymce.min.js":"Tinymce 4.1.7"
+      }
+    }
+  ]
+}

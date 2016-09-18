@@ -1,0 +1,1 @@
+<core.db.detail table="user" itemId="0" layout="admin/grid/del" />

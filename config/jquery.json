@@ -1,0 +1,28 @@
+{
+  "name": "jquery",
+  "version": "2.1.6",
+  "description": "An example module to illustrate the usage of a package.json",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/backupfile",
+  "keywords": [
+    "nodejitsu",
+    "example",
+    "browsenpm"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/jquery/jquery-2.1.4.min.js"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_jquery_src",
+      "type": "selectoption",
+      "label": "Src",
+      "option" : {
+        "/3rdparty/jquery/jquery-2.1.4.min.js":"JQuery 2.1.4",
+        "/3rdparty/jquery/jquery-1.11.1.min.js":"JQuery 1.11.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<core.db.list table="pzk_admin_menu" layout="admin/home/shortcut" conditions='["shortcut", "1"]' />

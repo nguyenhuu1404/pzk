@@ -1,0 +1,1 @@
+<button type="submit" class="btn btn-default">{prop label}</button>

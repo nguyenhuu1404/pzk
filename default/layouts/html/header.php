@@ -1,0 +1,1 @@
+<header {attrs id, class, style, rel}>{children all}</header>

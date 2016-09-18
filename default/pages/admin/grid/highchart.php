@@ -1,0 +1,1 @@
+<core.db.list table="user" itemId="0" layout="admin/grid/highchart" />

@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap",
+  "version": "3.3.1",
+  "description": "Module bootstrap",
+  "author": "nguyenhuu140490@gmail.com",
+  "script": "default/admin/packages",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "responsive"
+  ],
+  "type": "plugin",
+  "files": [
+    "3rdparty/bootstrap3"
+  ],
+  "license": "MIT",
+  "settings": [
+    {
+      "index": "plugin_bootstrap_js_src",
+      "type": "selectoption",
+      "label": "Js Src",
+      "option" : {
+        "/3rdparty/bootstrap3/js/bootstrap.min.js":"Bootstrap 3",
+        "/3rdparty/bootstrap2/js/bootstrap.min.js":"Bootstrap 2"
+      }
+    },
+	{
+      "index": "plugin_bootstrap_css_src",
+      "type": "selectoption",
+      "label": "Css Src",
+      "option" : {
+        "/3rdparty/bootstrap3/css/bootstrap.min.css":"Bootstrap 3",
+        "/3rdparty/bootstrap2/css/bootstrap.min.css":"Bootstrap 2"
+      }
+    },
+	{
+      "index": "plugin_bootstrap_theme_src",
+      "type": "selectoption",
+      "label": "Theme Src",
+      "option" : {
+        "/3rdparty/bootstrap3/css/bootstrap-theme.min.css":"Bootstrap 3",
+        "/3rdparty/bootstrap2/css/bootstrap-theme.min.css":"Bootstrap 2"
+      }
+    }
+  ]
+}
